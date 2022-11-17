@@ -1,0 +1,14 @@
+Informações
+===========
+
+Timer: 1.
+Tamanho do timer: 16 bits (0...65535).
+
+DDRD: Registrador que comanda as portas D (D0...D7).
+PORTD: Registrador que controla os resistores de pull-up/pull-down das portas D.
+
+TCCR1A: Registrador responsável por configurar como o timer 1 irá operar.
+TCCR1B: Registrador responsável por configurar o prescale do timer 1.
+TCNT1: Registrador que contém o valor inicial do timer, no exemplo mostrado.
+
+TIMSK1: Registrador que liga/desliga as interrupções do timer 1.
